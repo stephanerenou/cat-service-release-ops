@@ -12,6 +12,6 @@ configMapGenerator:
 
 images:
   - name: gcr.io/pgtm-jlong/cat-service # used for Kustomize matching
-    newTag: latest
+    newTag: b2.20211117.105008
     newName: eduk8s-labs-w01-s022-registry.s1tour-nov-prod-221dd9f.tanzu-labs.esp.vmware.com/cat-service
   
